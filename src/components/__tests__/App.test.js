@@ -1,8 +1,9 @@
 import React from "react";
 import { shallow } from "enzyme";
-import App from "../App";
-import ComponentBox from "../CommentBox";
-import CommentList from "../CommentList";
+import App from "components/App";
+import ComponentBox from "components/CommentBox";
+import CommentList from "components/CommentList";
+
 
 it("Show Comment Box", () => {
   //const div = document.createElement("div"); //JSdom libaray comes with jest
